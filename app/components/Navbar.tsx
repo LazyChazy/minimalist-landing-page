@@ -9,6 +9,7 @@ import { FiMenu, FiX } from 'react-icons/fi'
 const navItems = [
   { name: 'Home', href: '/#home' },
   { name: 'Features', href: '/#features' },
+  { name: 'Projects', href: '/#projects' },
   { name: 'Contact', href: '/#contact' },
 ]
 
@@ -49,8 +50,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav className={`fixed w-full z-10 transition-all duration-300 ${scrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className={`fixed top-0 left-0 right-0 z-10 transition-all duration-300 ${scrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
+      <div className="content-container">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-xl font-bold text-gray-800">

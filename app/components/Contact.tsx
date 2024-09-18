@@ -28,8 +28,8 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="section-padding bg-gray-50">
-      <div className="max-w-3xl mx-auto">
+    <section id="contact" className="section-padding bg-gray-50 pb-24">
+      <div className="content-container max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Get in Touch</h2>
         <motion.form
           initial={{ opacity: 0, y: 20 }}
